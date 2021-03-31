@@ -1,86 +1,142 @@
-<!DOCTYPE html>
-<html lang="en">
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(51, 22, 51);
+    margin: 20px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Linda Curtains</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-
-    <div class="header-container">
-        <div class="title"><h2>Linda<span>Curtains</span></h2></div>
-        <div class="navigation">
-                <ul>
-                    <li>HOME</li>
-                    <li>ABOUT US</li>
-                    <li>PRODUCTS</li>
-                    <li>SERVICES</li>
-                    <li>CONTACT US</li>
-                </ul>            
-        </div>
-    </div>
-
-
-
-    <main class="main-container">
-       
-                <div class="main-section">
-                        <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint quisquam unde perspiciatis nemo
-                            aliquam fugit alias </h1>
-
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea, repellendus?</p>
-
-                        <div>
-                            <img class="hero-image" src="7.jpg">
-                        </div>   
-                </div>
-    </main> 
-
-
-
+}
+h1 {
+    color: rgb(210, 214, 214);
+    font-weight: 200;
+    font-size: 1.5rem;
+}
+p {
+    color: rgb(210, 214, 214);
+    font-weight: 300; 
     
-<br><br>
-    <div class="products">              
-        <h1>Gallery</h1>
-        <div class="gallery">                   
-            <img src="1.jpg" width="350" alt="">
+}
 
-            <img src="2.jpg" width="350" alt="">
+.title {
+    color: azure;
+    font-size: 1.5rem;
+    margin-left: 20px;
+}
+span {
+    color: cyan;
+}
+p {
+    padding: 10px;
+}
+/* div {
+    border: 1px solid black;
+} */
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+    background-color: rgba(36, 4, 30, 0.5); 
+    width: 100%;
+    margin-top: 0;
+    position: fixed;
+  
 
-            <img src="3.jpg" width="350" alt="">        
-        </div>
-        <br><hr><br>
-        <h1>Collections</h1>
-        <div class="collections"> 
-            <div class="pic1">
-                <img src="4.jpg" width="350" alt="">
-            </div>
+}
+ul, li{
+    display: flex;
+    text-decoration: none;
+    color: cyan;
+    justify-content:end;
+    padding: 10px;
+    margin: 10px;
+    font-size: .75rem;
+}
+li:hover {
+    color: azure;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+.main-container {
+    display: flex;
+    margin-top: 50px;
+}
 
-            <div class="pic2">
-                <img src="6.jpg" width="350" alt="">
-            </div>
-
-            <div class="pic3">
-                <img src="7.jpg" width="350" alt="">
-            </div>
-        </div>    
-        <br>
-        <button class="btn"><b>See More..</b></button><br>
-    </div>       
-
-    <footer>
-       <center>
-           <div class="footer-container">      
-            <h5>All Rights Reserved &copy; Copyrights 2021 </h5>    
-            </div>
-        </center>     
-    </footer>
+.sidebar {
+    display: block;
+    width: 30%;
+    padding: 10px;
+    margin-top: 70px;
+    color:black;
+    text-align: left;
+    justify-content: space-around;
+   
+}
+.main-section {
+    float: left;
+    width: 100%;
+    padding: 20px;
+    margin-top: 50px;
+    margin-left: 20px;
+    color:black;
+    text-align: center;
     
-</body>
+}
+.hero-image {  
+    width:80%;
+    height: 70vh;
+    border-radius: 10px;
+    position: cover;
+    padding-bottom: 20px;
+}
+button {
+    background-color:rgb(51, 22, 51);
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    width: 100px;
+    color: azure;
+}
+button:hover {
+    background-color: azure;
+    color:rgb(51, 22, 51);
+}
 
 
+fieldset {
+    display: flex;
+    padding: 15px;
+    color: black;
+    background-color: rgba(122, 24, 24, 0.4);
+    width: auto;
+}
+.products {
+    text-align: center;
+    padding-bottom: 20px;
+}
+.gallery{
+    display: flex;
+   justify-content: space-around;
+   margin-bottom: 10px;
+}
+.collections {
+    display: flex;
+    justify-content: space-around;
+}
+legend {
+    color: rgb(51, 22, 51);;
+}
+ 
+footer .footer-container{
+    background-color: rgb(36, 4, 30); 
 
-</html>
+
+}
+h5 {
+    color: azure;
+    padding: 100px;
+}
+ 
