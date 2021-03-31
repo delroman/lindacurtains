@@ -88,7 +88,7 @@ li:hover {
 .hero-image {  
     width:80%;
     height: 70vh;
-    border-radius: 10px;
+    border-radius: 20px;
     position: cover;
     margin-bottom: 40px;
 }
