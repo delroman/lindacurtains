@@ -1,8 +1,7 @@
 * {
     box-sizing: border-box;
-    padding:0 ;
     margin: 0;
-    
+    padding: 0;
 }
 body {
     background-color: rgb(51, 22, 51);
@@ -14,6 +13,7 @@ h1 {
     color: rgb(210, 214, 214);
     font-weight: 200;
     font-size: 1.5rem;
+    text-align: center;
 }
 p {
     color: rgb(210, 214, 214);
@@ -90,7 +90,7 @@ li:hover {
     height: 70vh;
     border-radius: 10px;
     position: cover;
-    padding-bottom: 20px;
+    margin-bottom: 40px;
 }
 button {
     background-color:rgb(51, 22, 51);
@@ -121,11 +121,13 @@ fieldset {
 .gallery{
     display: flex;
    justify-content: space-around;
-   margin-bottom: 10px;
+   margin-bottom: 50px;
+   margin-top: 50px;
 }
 .collections {
     display: flex;
     justify-content: space-around;
+    margin-bottom: 50px;
 }
 legend {
     color: rgb(51, 22, 51);;
