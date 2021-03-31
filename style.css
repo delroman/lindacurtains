@@ -5,7 +5,6 @@
 }
 body {
     background-color: rgb(51, 22, 51);
-    margin: 20px 20px;
     font-family: Arial, Helvetica, sans-serif;
     position: absolute;
 
@@ -79,7 +78,7 @@ li:hover {
     float: left;
     width: 100%;
     padding: 20px;
-    margin-top: 70px;
+    margin-top: 50px;
     margin-left: 20px;
     color:black;
     text-align: center;
@@ -115,7 +114,8 @@ fieldset {
 }
 .products {
     text-align: center;
-    padding-bottom: 50px;
+    padding-bottom: 70px;
+    padding-top: 70px;
 }
 .gallery{
     display: flex;
@@ -130,8 +130,8 @@ legend {
     color: rgb(51, 22, 51);;
 }
  
-footer .footer-container{
-    background-color: rgb(36, 4, 30); 
+.footer-container{
+    background-color: rgba(36, 4, 30, 0.5);
 
 
 }
